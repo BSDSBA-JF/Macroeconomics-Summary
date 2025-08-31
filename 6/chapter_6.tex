@@ -94,9 +94,12 @@ Similar to the nominal v. real GDP, we also have the nominal v. real interest ra
     \label{fig:derivation} 
 \end{figure}
 
-When we use interest rates, what we truly care about is how many goods can we get in the future. For example, suppose that we just had a barter system, so I borrow/eat a pound of bread from a baker in year $t$. Then, in terms of a real good, I should pay the baker back one pound and a small percentage of a pound of bread. We call this small percentage $r_t$. Thus, after a year, I should give him $1 + r_t$ pounds of bread. By definition, this is the real interest rate.  
+When we use interest rates, what we truly care about is how many goods can we get in the future. For example, suppose that we just had a barter system, so we borrow/eat a pound of bread from a baker in year $t$. Then, in terms of a real good, we should pay the baker back one pound and a small percentage of a pound of bread. We call this small percentage $r_t$. Thus, after a year, we should give him $1 + r_t$ pounds of bread. By definition, this is the real interest rate.  
 
-Let us now derive the real interest rate  dollars where we are in a system with currency. So instead of just bartering/trading with the bread directly, I have to exchange money to get bread. Let the price of a pound of bread be $P_t$ dollars, so in dimensional analysis, we show it as $\frac{P_t \text{ dollars}}{1 \text{ pound of bread}}$. Then, we would use the nominal interest rate to then get how much I owe in terms of dollars, so I would owe $(1 + i_t)P_t$ dollars. 
+Let us now derive the real interest rate  dollars where we are in a system with currency. So instead of just bartering/trading with the bread directly, we have to exchange money to get bread. Let the price of a pound of bread be $P_t$ dollars, so in dimensional analysis, we show the cost of one pound of bread as:
+$$\frac{1 \text{ } \cancel{\text{pound of bread}}}{1} \times \frac{P_t \text{ dollars}}{1 \text{ }\cancel{\text{ pound of bread}}} = P_t \text{ dollars}$$. 
+
+Then, we would use the nominal interest rate to then get how much we owe in terms of dollars. In year $t+1$, we would owe $(1 + i_t)P_t$ dollars. 
 But, what we truly care about is how much do we have to return in terms of a pound of bread. 
 Thus, we use expected price of a pound of bread next year ($P^e_{t+1}$) and use dimensional analysis again to get:
 $$\frac{(1+i_t) P_t \text{ } \cancel{\text{dollars}}}{1} \times \frac{1 \text{ pound of bread}}{P^e_{t+1} \text{ } \cancel{\text{dollars}}} = \frac{(1+i_t)P_t}{P^e_{t+1}} \text{ pounds of bread}$$
@@ -105,26 +108,19 @@ We have now shown two ways to represent how we we pay back the interest of borro
 $$(1+r_t) = \frac{(1+i_t)P_t}{P^e_{t+1}}$$
 We manipulate this equation and use a lot of approximations to eventually get:
 $$r_t \approx i_t - \pi^e_{t+1}$$
-Thus, the zero lower bound on the nominal interest rate ($i$) implies that the real interest rate ($r$) cannot be lower than expected inflation ($\pi^e$).
+Notice that the zero lower bound on the nominal interest rate ($i$) implies that the real interest rate ($r$) cannot be lower than expected inflation ($\pi^e$).
+
 \section{Risk and Risk Premia}
-In general, people do not like risk. That's why many just invest in government bonds since they can always just print the money when needed. Thus, the expected value of a riskless bond is just $1+i$, where $i$ is the nominal interest rate. However, firms are not the government and can't just print money in demand. As such, they actually have a probability of defaulting (not paying their liabilities). If there is a probability $p$ of the firm defaulting, then the firm has to offer a higher interest rate to make it worth it. Formally, we say that the expected value of a bond with risk must match the expected value of a riskless bond, and firms do this by having a risk premium ($x$). Thus, the following relation must hold:
-$$
-(1+i) =
-\underbrace{(1-p)(1+x+i)}_{\substack{\text{If firm does not default,}\\ \text{loaner receives $1+x+i$ dollars}}}
-+
-\underbrace{p(0)}_{\substack{\text{If firm defaults,}\\ \text{loaner receives 0 dollars}}}
-$$
+In general, people do not like risk. That's why many just invest in government bonds since they can always just print the money when needed. Thus, the expected value of a riskless bond is just $1+i$, where $i$ is the nominal interest rate. However, firms are not the government and can't just print money in demand. As such, they actually have a probability of defaulting (not paying their liabilities). If there is a probability $p$ of the firm defaulting, then the firm has to offer a higher interest rate to make the loan worth it. Formally, we say that the expected return on a bond with risk must match the expected return on a riskless bond, and firms do this by having a risk premium ($x$). Thus, the following relation must hold:
+
+\begin{align*}
+  \mathbb{E}[\text{Return on Riskless Bond}] &= \mathbb{E}[\text{Return on Risky Bond}] \\
+  (1+i) &= \underbrace{(1-p)(1+x+i)}_{\substack{\text{If firm does not default,}\\ \text{loaner receives $1+x+i$ dollars}}} + \underbrace{p(0)}_{\substack{\text{If firm defaults,}\\ \text{loaner receives 0 dollars}}}
+\end{align*}
 
 Isolating for x, we get:
 $$x = \frac{(1+i)p}{(1-p)}$$
-However, people have a degree of risk aversion. As such, you would usually need an even higher risk premium than what the formula above suggests. For the role of financial intermediaries, I am not explaining that. The book summarizes it best as:
-\begin{quote}
-``The lower the liquidity of the assets (i.e., the more difficult they are to sell), the
-higher the risk of fire sales and the risk that the bank becomes insolvent and goes bank-
-rupt. The higher the liquidity of the liabilities (i.e., the easier it is for investors to get their
-funds at short notice), the higher the risk of fire sales as well, and the risk that the bank
-becomes insolvent and goes bankrupt.''
-\end{quote}
+However, people have a degree of risk aversion. As such, you would usually need an even higher risk premium than what the formula above suggests. For the other part of the book that concerns the Financial Crash of 2008, just read your book. 
 
 \section{Extending IS-LM Model}
 From what we have learned, we have two concerns. First, we must distinguish between the nominal interest rate ($i$) and the real interest rate ($r$). Second, we must distinguish the policy rate set by the central bank and the interest rates faced by borrowers.
