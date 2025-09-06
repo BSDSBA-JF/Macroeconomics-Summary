@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.8)  31 AUG 2025 21:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.8)  6 SEP 2025 10:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -603,8 +603,8 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 <labor market.png, id=20, 1112.155pt x 835.12pt>
 File: labor market.png Graphic file (type png)
 <use labor market.png>
-Package pdftex.def Info: labor market.png  used on input line 130.
-(pdftex.def)             Requested size: 234.8775pt x 176.36157pt.
+Package pdftex.def Info: labor market.png  used on input line 129.
+(pdftex.def)             Requested size: 140.92793pt x 105.81694pt.
  [2 <./labor market.png>] (./chapter_7.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -612,15 +612,15 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 21135 strings out of 474116
- 440278 string characters out of 5743683
+ 21137 strings out of 474116
+ 440294 string characters out of 5743683
  1937187 words of memory out of 5000000
  43071 multiletter control sequences out of 15000+600000
- 569873 words of font info for 116 fonts, out of 8000000 for 9000
+ 569933 words of font info for 117 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,7n,107p,1031b,299s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,6n,107p,1031b,299s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on chapter_7.pdf (2 pages, 250895 bytes).
+Output written on chapter_7.pdf (2 pages, 251163 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream
