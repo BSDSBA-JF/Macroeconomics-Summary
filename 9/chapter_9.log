@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.8)  5 SEP 2025 08:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.6.8)  6 SEP 2025 11:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -615,12 +615,12 @@ File: deflation.png Graphic file (type png)
 Package pdftex.def Info: deflation.png  used on input line 175.
 (pdftex.def)             Requested size: 164.41711pt x 236.12634pt.
  [2 <./IS-LM-PC.png>]
-<fiscal consolidation.png, id=25, 891.33pt x 1198.4775pt>
+<fiscal consolidation.png, id=24, 891.33pt x 1198.4775pt>
 File: fiscal consolidation.png Graphic file (type png)
 <use fiscal consolidation.png>
 Package pdftex.def Info: fiscal consolidation.png  used on input line 201.
 (pdftex.def)             Requested size: 164.41711pt x 221.07481pt.
-<labor.png, id=26, 712.6625pt x 529.98pt>
+<labor.png, id=25, 712.6625pt x 529.98pt>
 File: labor.png Graphic file (type png)
 <use labor.png>
 Package pdftex.def Info: labor.png  used on input line 233.
@@ -643,14 +643,14 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  21174 strings out of 474116
- 441013 string characters out of 5743683
+ 441019 string characters out of 5743683
  1941187 words of memory out of 5000000
  43105 multiletter control sequences out of 15000+600000
  569700 words of font info for 118 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,10n,107p,1031b,352s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on chapter_9.pdf (4 pages, 612436 bytes).
+Output written on chapter_9.pdf (4 pages, 612069 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream
